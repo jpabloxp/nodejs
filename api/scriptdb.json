@@ -1,0 +1,97 @@
+[
+    {
+        "titre" : "Sunset",
+        "ingredients" : [
+            {
+                "nom" : "framboise",
+                "quantite" : "100g"
+            },
+            {
+                "nom" : "fraise",
+                "quantite" : "100g"
+            },
+            {
+                "nom" : "banana",
+                "quantite" : "100g"
+            },
+            {
+                "nom" : "eau",
+                "quantite" : "25cl"
+            }
+        ],
+        "features" : [
+            {
+                "cout" : "5 euros",
+                "tempsPreparation" : "6 minutes"
+            }
+        ],
+        "recommendations" : "Ajoutez 3 framboises par chaque fraise. Ajoutez, au moins, 5 fraises. Ajoutez la moitié d'une banana.",
+        "description" : "Super smoothie rafraichissant, prets en quelques minutes",
+        "deroulement" : [
+            {
+                "pas" : "Lavez les framboises et les fraises a l'eau claire"
+            },
+            {
+                "pas" : "Eliminez le pedoncule avec un couteau pointu"
+            },
+            {
+                "pas" : "Placez les framboises, les fraises, la banane et l'eau dans le bol du mixer"
+            },
+            {
+                "pas" : "Mixez 1 minute"
+            },
+            {
+                "pas" : "Servez dans un grand verre"
+            }
+        ]
+    },
+    {
+        "titre" : "Sunrise",
+        "ingredients" : [
+            {
+                "nom" : "mangue",
+                "quantite" : "100g"
+            },
+            {
+                "nom" : "fraise",
+                "quantite" : "100g"
+            },
+            {
+                "nom" : "banana",
+                "quantite" : "100g"
+            },
+            {
+                "nom" : "eau",
+                "quantite" : "20cl"
+            }
+        ],
+        "features" : [
+            {
+                "cout" : "7 euros",
+                "tempsPreparation" : "7 minutes"
+            }
+        ],
+        "recommendations" : "Ajoutez 2 fraise par chaque mangue. Ajoutez, au moins, 2 mangues. Ajoutez la moitié d'une banana.",
+        "description" : "Super smoothie rafraichissant, prets en quelques minutes",
+        "deroulement" : [
+            {
+                "pas" : "Lavez les fraises a l'eau claire"
+            },
+            {
+                "pas" : "A l'aide d'une cuillere a soupe, prelevez la pulpe de la mangue en detachant la chair de la peau"
+            },
+            {
+                "pas" : "Eliminez le pedoncule avec un couteau pointu"
+            },
+            {
+                "pas" : "Placez les mangues, les fraises, la banane et l'eau dans le bol du mixer"
+            },
+            {
+                "pas" : "Mixez 1 minute"
+            },
+            {
+                "pas" : "Servez dans un grand verre"
+            }
+        ]
+    }
+]
