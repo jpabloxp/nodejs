@@ -1,0 +1,21 @@
+CREATE A NEW PROJECT
+
+nmp init -y (inside the directory)
+create an index.js file and copy code 
+nmp install -g express-generator
+express smoothie-be --pug (smoothie-be is the name of directory for project)
+npm install (inside the created directory "smoothie-be"
+npm start (inside the directory)
+
+INSTALL NODEMON TO REFRESH THE SERVER ON THE FLY
+nom install -g nodemon
+add 
+    "dev" : "nodemon ./bin/www"
+in package.json
+npm run dev
+
+AFTER INSTALLING MONGODB, INSTALL MONGOOSE
+npm i mongodb mongoose --save
+
+INSTALL ANGULAR
+npm i -g @angular/cli
