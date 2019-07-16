@@ -19,3 +19,14 @@ npm i mongodb mongoose --save
 
 INSTALL ANGULAR
 npm i -g @angular/cli
+
+IN FOLDER 'ASSETS' OF AN ANGULAR PROJECT, IS WHERE IMAGES ARE LOCATED
+
+INSTALL MATERIAL
+npm install --save @angular/material @angular/cdk @angular/animations
+
+INSTALL NG-LIGHTNING
+npm install --save ng-lightning
+
+CREATE A SERVICE TO CONNECT FE TO BE (inside the directory)
+ng g service smoothie --flat

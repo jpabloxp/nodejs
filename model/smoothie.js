@@ -4,17 +4,17 @@ const smoothieSchema = mongoose.Schema(
     {
         titre : {
             type: String,
-            required: true
+            required: false
         },
         ingredients : [
             {
                 nom : {
                     type: String,
-                    required: true
+                    required: false
                 },
                 quantite : {
                     type: String,
-                    required: true
+                    required: false
                 }
             }
         ],
@@ -22,11 +22,11 @@ const smoothieSchema = mongoose.Schema(
             {
                 cout : {
                     type: String,
-                    required: true
+                    required: false
                 },
                 tempsPreparation : {
                     type: String,
-                    required: true
+                    required: false
                 }
             }
         ],
@@ -38,19 +38,23 @@ const smoothieSchema = mongoose.Schema(
             type: String,
             required: false
         },
-        deroulement : {
-            type: String,
-            required: true
-        },
+        deroulement : [
+            {
+                pas : {
+                    type: String,
+                    required: false
+                }
+            }
+        ],
         photo : [
             {
                 title : {
                     type: String,
-                    required: true
+                    required: false
                 },
                 path : {
                     type: String,
-                    required: true
+                    required: false
                 },
                 description : {
                     type: String,
